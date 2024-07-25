@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from datetime import datetime
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 import pickle
 
 # Load the saved model, scaler, and DataFrame
